@@ -46,11 +46,11 @@
 <script>
     function downloadFile() {
         // file nằm cùng repo với index.html
-        const fileUrl = "./file.zip"; // đổi tên file ở đây
+        const fileUrl = "./ssms.zip"; // đổi tên file ở đây
 
         const a = document.createElement("a");
         a.href = fileUrl;
-        a.download = "file.zip"; // tên khi tải về
+        a.download = ".zip"; // tên khi tải về
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
